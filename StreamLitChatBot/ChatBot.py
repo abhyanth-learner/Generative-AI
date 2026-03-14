@@ -6,12 +6,12 @@ from langchain_groq import ChatGroq
 load_dotenv()
 
 st.set_page_config(
-    page_title="Chatbot",
+    page_title="Cricket & Football Chatbot",
     page_icon="🤖",
     layout="centered",
 )
 
-st.title("💬 Generative AI Chatbot")
+st.title("💬 Cricket & Football Chatbot Chatbot")
 
 if "chat_history" not in st.session_state:
     st.session_state.chat_history=[]
